@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hint_email">Email</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+
+    <string name="app_name">蜻蜓公益</string>
+    <string name="text_signin">欢迎回到蜻蜓公益</string>
+    <string name="text_signup">欢迎来到蜻蜓公益</string>
+    <string name="hint_tel">手机号</string>
+    <string name="hint_password">密码</string>
+    <string name="Repassword">忘记密码</string>
+    <string name="hint_name">昵称</string>
+    <string name="btn_signin">登录</string>
+    <string name="btn_signup">注册</string>
+    <string name="btn_link_to_signup">点此注册</string>
+    <string name="btn_link_to_signin">已经注册了，请登录</string>
+    <string name="welcome">欢迎</string>
+    <string name="btn_logout">登出</string>
+    <string name="name">Fullname</string>
+    <string name="friend_zone">我的好友</string>
+    <string name="team">公益团体</string>
+    <string name="new_post">此刻你心里的想法是什么?</string>
+</resources>

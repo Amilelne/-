@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/post_ImageId"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/post_ImageId"
+        android:layout_toRightOf="@+id/post_ImageId"
+        android:layout_toEndOf="@+id/post_ImageId"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:id="@+id/post_name"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/post_ImageId"
+        android:layout_alignRight="@+id/post_name"
+        android:layout_alignEnd="@+id/post_name"
+        android:id="@+id/post_date"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post_ImageId"
+        android:layout_alignLeft="@+id/post_ImageId"
+        android:layout_alignStart="@+id/post_ImageId"
+        android:layout_marginTop="35dp"
+        android:id="@+id/post_Pcontext"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post_Pcontext"
+        android:layout_alignLeft="@+id/post_Pcontext"
+        android:layout_alignStart="@+id/post_Pcontext"
+        android:layout_marginTop="14dp"
+        android:id="@+id/post_PostImageId"/>
+</RelativeLayout>

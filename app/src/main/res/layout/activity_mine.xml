@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/activity_mine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider01"
+    android:showDividers="middle"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/image1"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn01_shapes"
+            android:text="注册或登录"
+            android:textColor="@color/RED"
+            android:textSize="16sp"
+            android:visibility="visible"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/divider02"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/message"
+            android:drawablePadding="12dp"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            android:text="我的消息"
+            android:textColor="@color/BLACK"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/invite"
+            android:drawablePadding="12dp"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            android:text="邀请小伙伴"
+            android:textColor="@color/BLACK"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/divider02"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sponsor"
+            android:drawablePadding="12dp"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            android:text="发布项目"
+            android:textColor="@color/BLACK"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/collect"
+            android:drawablePadding="12dp"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            android:text="收藏项目"
+            android:textColor="@color/BLACK"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/donate"
+            android:drawablePadding="12dp"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            android:text="已捐项目"
+            android:textColor="@color/BLACK"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/raise"
+            android:drawablePadding="12dp"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            android:text="累计捐助"
+            android:textColor="@color/BLACK"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/rank"
+            android:drawablePadding="12dp"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            android:text="地区排名"
+            android:textColor="@color/BLACK"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/advise"
+            android:drawablePadding="12dp"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            android:text="意见反馈"
+            android:textColor="@color/BLACK"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
