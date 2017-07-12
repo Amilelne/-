@@ -29,9 +29,9 @@ public class Post {
     }
     public  static List<Post> getAllPosts(){
         List<Post> Posts = new ArrayList<Post>();
-        Posts.add(new Post("厦门大学竹蜻蜓", R.drawable.zhx,"welcome to here",R.drawable.zhx,"7-10"));
-        Posts.add(new Post("李特特",R.drawable.cj,"我是大美女",R.drawable.cj,"7-8"));
-        Posts.add(new Post("子木",R.drawable.yw,"今天天气好好噢",R.drawable.yw,"7-7"));
+        Posts.add(new Post("厦门大学竹蜻蜓", R.drawable.beau1,"welcome to here",R.drawable.zhx,"7-10"));
+        Posts.add(new Post("李特特",R.drawable.beau3,"高数过了噢",R.drawable.beau3,"7-8"));
+        Posts.add(new Post("子木",R.drawable.beau4,"今天天气好好噢",R.drawable.yw,"7-7"));
 
         return Posts;
     }
@@ -61,3 +61,5 @@ public class Post {
         this.PostImageId = PostImageId;
     }
 }
+
+

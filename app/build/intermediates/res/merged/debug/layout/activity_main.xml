@@ -2,7 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:id="@+id/activity_mine"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:divider="@drawable/divider01"
@@ -16,7 +16,7 @@
         android:weightSum="1">
 
         <ImageView
-            android:id="@+id/image1"
+            android:id="@+id/logo"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:src="@drawable/logo"
@@ -142,6 +142,32 @@
             android:textColor="@color/BLACK"
             android:textSize="16sp" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu"
+            android:id="@+id/menu"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart"
+            android:id="@+id/heart"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home"
+            android:id="@+id/home"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mine"
+            android:id="@+id/mine"/>
     </LinearLayout>
 
 </LinearLayout>
